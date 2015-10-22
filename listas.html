@@ -1,0 +1,83 @@
+<!-- Una lista del super de forma ordenada y liste las secciones que vas a visitar, adentro una lista desordenada en cada sección. -->
+<!DOCTOTYPE html>
+<html lang="es">
+<head> 
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	</head>
+	<body>
+	<header> 
+	   <h1>Lista de super</h1>
+		<style>
+		ul.myList {
+  line-height: 1.5em;
+  list-style-image: url(http://www.megaicons.net/static/img/icons_title/532/2011/title/darth-vader-icon.png);
+}
+		* 
+li.two:before {
+   content:"\f00c";
+}
+li.three:before {
+   content:"\f10c";
+}
+li.four:before {
+   content:"\f004";
+}
+li.five:before {
+   content:"\f1e2";
+}
+li.six:before {
+   content:"\f0e7";
+}
+
+li:hover:before {
+  color:#fff;
+}
+
+</style>
+	   </header>
+	   <main>
+  		<section>
+	   		<ol>
+				<li class="one">
+				FRUTAS
+				</li> 
+					<ul class="mylist">
+			   		 	<li>1 Sandia</li> 	
+						<li>350gr Redberries </li> 	
+						<li>200gr Litchie</li> 	
+		   		 	</ul>	
+				<li class="two">
+				VERDURAS
+				</li> 
+					<ul class="mylist">
+			   		 	<li>200gr Calabazitas</li> 	
+						<li>1 manojo de Espinaca</li> 	
+						<li>1 Berenjena</li> 	
+		   		 	</ul>	
+				<li class="three">
+				PERFUMERIA
+				</li> 
+					<ul class="mylist">
+			   		 	<li>1 Shampoo</li> 	
+						<li>1 Acondicionador</li> 	
+						<li>1 Desodorante</li> 	
+		   		    </ul >
+				<li>MARISCOS</li> 
+					<ul class="mylist">
+			   		 	<li>2 Marlins</li> 	
+						<li>1 paquete de pescado Del Nilo</li>	
+						<li>500gr Camarones cocteleros</li> 	
+		   		 	</ul>
+				<li>GOURMET</li>
+					<ul class="mylist">
+			   		 	<li>1 Aceite de Oliva</li> 	
+						<li>1 Vino Rosado</li> 	
+						<li>1 frasco de finas hierbas</li> 	
+		   		 	</ul>
+	   		 </ol>
+
+	   </section>
+	   
+	   </main>
+	   </html>

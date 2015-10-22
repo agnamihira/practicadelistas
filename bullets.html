@@ -1,0 +1,84 @@
+<!-- http://www.w3schools.com/cssref/pr_list-style-type.asp -->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<body>
+<style>
+* {
+  font-family:sans-serif;  
+}
+
+body {
+  background:#37bfe1;
+  padding:50px;
+}
+
+h1 {
+  color:#fff;
+  text-align: center;
+  font-size: 60px;
+}
+
+li {
+  color:#fff;
+  list-style:none;
+  position: relative;
+  padding-left:50px;
+  line-height: 2;
+  font-size:32px;
+}
+
+li:before {
+  font-family:FontAwesome;
+  position: absolute;
+  left: 0;
+  color:#318ca0;
+  font-size:32px;
+}
+
+li.one:before {
+   content:"\f111"; 
+}
+li.two:before {
+   content:"\f00c";
+}
+li.three:before {
+   content:"\f10c";
+}
+li.four:before {
+   content:"\f004";
+}
+li.five:before {
+   content:"\f1e2";
+}
+li.six:before {
+   content:"\f0e7";
+}
+
+li:hover:before {
+  color:#fff;
+}
+</style>
+  <h1>
+    To do's
+  </h1>
+  <ul>
+    <li class="one">
+      Leer Newsletters
+    </li>
+    <li class="two">
+      Escribir en medium
+    </li>
+     <li class="three">
+      Terminar keynote/mobile marketing
+    </li>
+    <li class="four">
+      Run, run, run...
+    </li>
+    <li class="five">
+      Buscar depa
+    </li>
+     <li class="six">
+      Seguir buscando fuentes de ˝bullets"
+    </li>
+  </ul>
+</body>
